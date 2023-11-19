@@ -53,23 +53,23 @@
                 <br>
 
                 <label for="email-address">Email Address</label>
-                <input type="text" id="email-address" name="email-address" class="text-input" required>
+                <input type="email" id="email-address" name="email-address" class="text-input" required>
                 <br>
 
                 <div class="radio-buttons">
-                    <div id="road">
-                        <label for="road-button">Road</label>
-                        <input type="radio" name="road-button" checked>
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" name="running-preference" id="road" required checked>
                     </div>
-                    <div id="trail">
-                        <label for="trail-button">Trail</label>
-                        <input type="radio" name="trail-button">
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input type="radio" name="running-preference" id="trail" required>
                     </div>
-                    <div id="both">
-                        <label for="both-button">Both</label>
-                        <input type="radio" name="both-button">
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="running-preference" id="both" required>
                     </div>
-                    <input type="submit" value="Let's Run!">
+                    <button type="submit" class="join-button">Let's Run!</button>
                 </div>
             </form>
         </section>
